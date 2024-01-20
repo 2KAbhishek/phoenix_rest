@@ -9,7 +9,7 @@ defmodule PhoenixRestWeb.Router do
     pipe_through :api
   end
 
-  scope "/api", UsersApiWeb do
+  scope "/api", PhoenixRestWeb do
     pipe_through :api
     resources "/users", UserController
   end
