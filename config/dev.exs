@@ -21,10 +21,7 @@ config :phoenix_rest, PhoenixRestWeb.Endpoint,
   code_reloader: true,
   debug_errors: true,
   secret_key_base: "Xy5pklCmtNwFSreRPrkGj4V7UerOTglP8yRKRjku/itY2ckjFe3uX94x2aZxisQg",
-  watchers: [
-    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
-    tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
-  ]
+  watchers: [ ]
 
 # ## SSL Support
 #
