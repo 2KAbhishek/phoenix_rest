@@ -20,69 +20,58 @@
 <a href="https://github.com/2KAbhishek/phoenix_rest/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/phoenix_rest?style=flat&color=e06c75&label="> </a>
 
-<h3>Short Sweet Headline 🎇🎉</h3>
-
-<figure>
-  <img src="images/screenshot.png" alt="phoenix_rest in action">
-  <br/>
-  <figcaption>phoenix_rest in action</figcaption>
-</figure>
+<h3>REST in Phoenix 🦅⚙️</h3>
 
 </div>
 
-phoenix_rest is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
+A REST API built using Phoenix for learning purposes.
 
 ## ✨ Features
 
-- Comes with a ready to go README template
-- Works with [mkrepo](https://github.com/2kabhishek/mkrepo)
+- RESTful API built using Phoenix
+- Can be used for learning purposes
 
 ## ⚡ Setup
 
 ### ⚙️ Requirements
 
-- foo >= bar
-- bazz
+- erlang (26.1.1)
+- elixir (~1.15)
 
 ### 💻 Installation
 
-Installing phoenix_rest is as simple as cloning and symlinking!
+To install phoenix run:
+
+```bash
+mix archive.install hex phx_new
+```
+
+Clone the repo
 
 ```bash
 git clone https://github.com/2kabhishek/phoenix_rest
 cd phoenix_rest
-<install_command>
 ```
 
 ## 🚀 Usage
 
-```bash
-USAGE:
-    phoenix_rest [FLAGS] [OPTIONS]
-Example:
-    phoenix_rest
-```
+To start your Phoenix server:
 
-## 🏗️ What's Next
+- Run `mix setup` to install and setup dependencies
+- Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-Planning to add `<feature/module>`.
-
-### ✅ To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
+Now you can use [`localhost:4000/api`](http://localhost:4000/api) for API interactions.
 
 ## 🧑‍💻 Behind The Code
 
 ### 🌈 Inspiration
 
-phoenix_rest was inspired by `<reason/idea>`.
+Wanted to explore Phoenix.
 
 ### 💡 Challenges/Learnings
 
-- The main challenges were `<issue/difficulty>`
-- I learned about `<learning/accomplishment>`
+- I had to clean up heroicons assests, doing that on every project where not needed.
+- I learned more about the Phoenix and Elixir ecosystem.
 
 ### 🧰 Tooling
 
@@ -93,8 +82,7 @@ phoenix_rest was inspired by `<reason/idea>`.
 
 ### 🔍 More Info
 
-- [shelly](https://github.com/2kabhishek/shelly) — Command line template
-- [tiny-web](https://github.com/2kabhishek/tiny-web) — Web app template
+- [phoenix_rest](https://github.com/2kabhishek/phoenix_rest) — REST API with Phoenix
 
 <hr>
 
